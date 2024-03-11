@@ -10,8 +10,6 @@ fn main() {
     let mut guesses:u32 = 0;
     // a unassigned 32bit variable (positive integer number) that receives a fixed random number for each execution of the program, with the range 1 to 100. 
 
-    println!("The secret number is: {secret_number}");
-
     loop {
         println!("Please, type your guess: ");
         let mut user_guess: String = String::new(); 
